@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.img {
+    height: 30px;
+    width: 30px;
+    border-radius: 7px;
+   background-color: white;
+    margin: 5px;
+}
+
+.navbar {
+    background-color: rgb(78, 78, 78);
+    display: flex;
+    align-items: center;
+}
+
+.chrome_box {
+    display: flex;
+    align-items: center;
+    background-color: grey ;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 5px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.chrome_box:hover {
+    background-color: rgb(18, 10, 187);
+}
+
+.chrome_img {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.new_word {
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+.close_img {
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+}
+
+.arrows {
+    display: flex;
+}
+
+.arrows img {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    width: 30px;
+    justify-content: space-around;
+}
+
+.arrows img:hover {
+    padding: 5px;
+    background-color: rgb(163, 163, 163);
+    border-radius: 50%;
+}
+
+.input {
+    width: 700px;
+    padding: 6px 10px;
+    background-color: rgb(32, 32, 32);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.input:hover {
+    background-color: rgb(70, 69, 69);
+}
+
+.input:active {
+    border: blue 3px solid;
+}
+
+.inputt {
+    display: flex;
+    align-items: center;
+}
+
+.inputt img {
+    width: 20px;
+    height: 20px;
+}
+
+.google {
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+
+.navbarr {
+    background-color: grey;
+    display: flex;
+    padding: 20px 0;
+}
+
+.downlaod {
+    margin-left: 20px;
+}
+
+.a {
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.dot {
+    margin-left: 20px;
+}
